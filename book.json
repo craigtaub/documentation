@@ -1,0 +1,45 @@
+{
+    "generator": "site",
+    "title": "Documentation - Javascript library for Craig.",
+    "description": null,
+    "structure": {
+        "readme": "INTRO.md"
+    },
+    "plugins": [
+        "jsbin",
+        "anchors",
+        "video",
+        "ga",
+        "toggle-chapters",
+        "editlink",
+        "include-codeblock",
+        "splitter",
+        "github-buttons",
+        "chart",
+        "todo",
+        "quiz",
+        "include-highlight",
+        "tonic"
+    ],
+    "theme": "theme",
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "sans"
+        },
+        "editlink": {
+            "base": "https://github.com/craigtaub/documentation/edit/master",
+            "label": "Edit This Page"
+        },
+        "github-buttons": {
+            "repo": "craigtaub/documentation",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        }
+    },
+    "variables": {
+        "isPdf": false
+    }
+}
